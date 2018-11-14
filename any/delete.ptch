@@ -1,0 +1,13 @@
+#Porting for PSP5453DUO
+delete "%rom%/recovery";
+delete "%rom%/logo.img";
+delete "%rom%/uboot.img";
+delete "%rom%/scatter.txt";
+delete "%rom%/type.txt";
+delete "%rom%/file_contexts";
+delete "%rom%/system/app/MiuiCompass.apk";
+delete "%rom%/system/etc/mddb/BPLGUInfoCustomAppSrcP_MT6592_S00_MOLY_WR8_W1315_MD_WG_MP_V62_P3_1_wg_n";
+delete "%rom%/system/lib/hw/gralloc.mt6592.so";
+delete "%rom%/system/lib/hw/hwcomposer.mt6592.so";
+delete "%rom%/system/media/audio/ui/camera_click.ogg";
+delete "%rom%/system/xbin/libmnlp_mt6592";

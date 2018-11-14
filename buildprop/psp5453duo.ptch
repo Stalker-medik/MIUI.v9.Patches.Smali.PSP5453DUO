@@ -1,0 +1,11 @@
+#Porting miui for PSP5453DUO
+ro.build.display.id=MIUIv9.PSP5453DUO
+ro.product.model=PSP5453DUO
+ro.product.brand=Prestigio
+ro.product.name=Prestigio PSP5453DUO
+ro.mediatek.platform=MT6582
+mediatek.wlan.chip=MTK_CONNSYS_MT6582
+mediatek.wlan.module.postfix=_mtk_connsys_mt6582
+ro.product.mod_device=Prestigio_PSP5453DUO
+sys.initd=1
+sys.initd.loop=1

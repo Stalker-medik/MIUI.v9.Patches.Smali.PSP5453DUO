@@ -1,0 +1,13 @@
+appfile <SecurityCenter.apk>;
+# Fix battery capacity
+# Porting from Xiaomi Redmi Note 3G WCDMA
+replaceinfile "%smali%/com/miui/powercenter/a/a.smali" "const/16 v0, 0xc1c" "const/16 v0, 0x6a4";
+replaceinfile "%smali%/com/miui/powercenter/a/b.smali" "const/16 v0, 0xc1c" "const/16 v0, 0x6a4";
+replaceinfile "%smali%/com/miui/powercenter/a/c.smali" "const/16 v0, 0xc1c" "const/16 v0, 0x6a4";
+replaceinfile "%smali%/com/miui/powercenter/a/d.smali" "const/16 v0, 0xc1c" "const/16 v0, 0x6a4";
+replaceinfile "%smali%/com/miui/powercenter/a/e.smali" "const/16 v0, 0xc1c" "const/16 v0, 0x6a4";
+replaceinfile "%smali%/com/miui/powercenter/a/f.smali" "const/16 v0, 0xc1c" "const/16 v0, 0x6a4";
+replaceinfile "%smali%/com/miui/powercenter/a/g.smali" "const/16 v0, 0xc1c" "const/16 v0, 0x6a4";
+replaceinfile "%smali%/com/miui/powercenter/a/h.smali" "const/16 v0, 0xc1c" "const/16 v0, 0x6a4";
+replaceinfile "%smali%/com/miui/powercenter/a/i.smali" "const/16 v0, 0xc1c" "const/16 v0, 0x6a4";
+replaceinfile "%smali%/com/miui/powercenter/a/j.smali" "const/16 v0, 0xc1c" "const/16 v0, 0x6a4";
